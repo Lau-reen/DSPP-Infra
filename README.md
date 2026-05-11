@@ -4,7 +4,7 @@
 ## 👥 Team Members
 
 * Laureen Attolou (@lau-reen) - Role/Responsibility
-* Name (@github_handle) - Role/Responsibility
+* Russell Li Tsai (@russelltsai-source) - Role/Responsibility
 * Name (@github_handle) - Role/Responsibility
 
 ---
