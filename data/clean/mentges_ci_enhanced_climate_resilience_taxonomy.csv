@@ -1,0 +1,118 @@
+Term,Category,Search_Pattern
+Climate Bonds Resilience Taxonomy (CBRT),Framework,Climate* Bond* Resilien* Taxonom* OR CBRT
+ISO 14090 (Climate Change Adaptation),Framework,ISO 1409*
+NIST Community Resilience Planning Guide,Framework,NIST* Resilien*
+Resilience by design,Framework,resilien* by* design* OR resilien* based* design*
+Resilience engineering,Framework,resilien* engineer* OR cornerstone* of* resilien*
+Sendai Framework for Disaster Risk Reduction,Framework,Sendai* OR DRR
+TCFD / ISSB Resilience Guidance,Framework,TCFD* OR ISSB* OR climate* scenar* analysis*
+Adaptive Capacity,General Concept,adapt* capaci*
+Climate Risk Assessment,General Concept,climat* risk* assess* OR CRVA
+Climate adaptation,General Concept,climat* adapt*
+Climate resilience,General Concept,climat* resilien*
+Climate resilience investments,General Concept,climat* resilien* invest*
+Disaster Risk Management,General Concept,disaster* risk* manag* OR DRM
+Ecological resilience,General Concept,ecolog* resilien* OR basin* of* attraction*
+Engineering resilience,General Concept,engineer* resilien* OR return* to* equilibrium*
+Operational resilience,General Concept,operation* resilien* OR infrastructure* resilien*
+Social-ecological resilience,General Concept,social* ecolog* resilien* OR socio*ecolog* OR adaptive* resilien*
+System of systems,General Concept,system* of* system*
+Adapted activities,Investment Type,adapt* activit*
+Adapting measures,Investment Type,adapt* measur*
+Asset relocation / Realignment,Investment Type,asset* relocat* OR realign* OR retreat*
+Avoidance,Investment Type,avoid* OR reduce* exposure*
+Climate proofing,Investment Type,climat* proof*
+Climate-informed maintenance,Investment Type,predict* mainten* OR climate* risk* mainten*
+Defense infrastructure,Investment Type,sea*wall* OR dike* OR levee* OR flood* barri*
+Early Warning Systems (EWS),Investment Type,early* warn* OR EWS
+Enabling activities,Investment Type,enabl* activit*
+Enabling measures,Investment Type,enabl* measur*
+Mitigation,Investment Type,mitigat* OR risk* reduction*
+Monitoring,Investment Type,monitor* OR sens* OR collect* data* OR condition* based*
+Prevention,Investment Type,prevent* OR hazard* intervention*
+Protection,Investment Type,protect* OR adjust* system* propert*
+Redundancy investments,Investment Type,redundanc* invest* OR dual* feed*
+Retrofitting,Investment Type,retrofi* OR rehab* OR moderni*
+Changes to marine conditions,Physical Climate Hazard,marin* condition* OR ocean* acidi* OR sea* surf* temp*
+Coastal erosion,Physical Climate Hazard,coastal* eros* OR beach* eros*
+Cold stress,Physical Climate Hazard,cold* stress* OR extrem* cold* OR frost* OR freez*
+Flood damage,Physical Climate Hazard,flood* OR inundat* OR pluvial* OR fluvial*
+Grid failure / Blackout,Physical Climate Hazard,grid* fail* OR power* outage* OR blackout*
+Heat stress,Physical Climate Hazard,heat* stress* OR extrem* heat* OR heat*wave*
+Mass movement damage,Physical Climate Hazard,landslid* OR mudslid* OR mass* movement* OR avalanch*
+Multi-hazard,Physical Climate Hazard,multi* hazard* OR compound* event* OR cascad* fail*
+Permafrost thaw,Physical Climate Hazard,permafrost* thaw* OR cryospher* change*
+Press disturbance,Physical Climate Hazard,press* disturb* OR chronic* disturb* OR long* term* change*
+Pulse disturbance,Physical Climate Hazard,pulse* disturb* OR shock* OR acute* disturb*
+Scour damage,Physical Climate Hazard,bridge* scour* OR scour* damag*
+Sea level rise (SLR),Physical Climate Hazard,sea* level* rise* OR SLR
+Storm damage,Physical Climate Hazard,storm* OR cyclon* OR typhon* OR hurrican* OR gale*
+Storm surge,Physical Climate Hazard,storm* surge*
+Stressor,Physical Climate Hazard,stressor* OR stress* factor*
+Thermal expansion,Physical Climate Hazard,thermal* expans* OR rail* buckl*
+Water stress / Drought,Physical Climate Hazard,water* stress* OR drought* OR water* scarc*
+Wildfire damage,Physical Climate Hazard,wildfire* OR bushfire* OR forest* fire*
+Acceptable Risk,Qualification Concept,accept* risk*
+Acceptance,Qualification Concept,accept* risk* OR residual* risk* judgment*
+Anti-fragility,Qualification Concept,anti*fragil* OR benefit* from* stress*
+Brittleness,Qualification Concept,brittl* OR sudden* collapse*
+Climate Scenarios (RCP/SSP),Qualification Concept,RCP* OR SSP* OR climate* scenario* OR IPCC* scenario*
+Deep uncertainty,Qualification Concept,deep* uncertain* OR total* ignorance*
+Do no significant harm (DNSH),Qualification Concept,do* no* significat* harm* OR DNSH
+Fragility,Qualification Concept,fragil* OR lack* of* capacity*
+Fragility curve,Qualification Concept,fragil* curve* OR impact* function* OR vulnerab* curve*
+Key performance indicator (KPI),Qualification Concept,KPI* OR key* perform* indicator*
+Key risk indicator (KRI),Qualification Concept,KRI* OR key* risk* indicator*
+Maladaptation,Qualification Concept,maladapt*
+Performance curve,Qualification Concept,perform* curve* OR resilien* curve* OR bathtub* shape*
+Residual Risk,Qualification Concept,residual* risk*
+Resilience index,Qualification Concept,resilien* index* OR composit* indicator* OR composite* framework*
+Resilience indicator,Qualification Concept,resilien* indicator*
+Risk Tolerance / Risk Threshold,Qualification Concept,risk* toleran* OR risk* threshold* OR design* standard*
+Risk curve,Qualification Concept,risk* curve* OR performance* degrad* summary*
+Stranded assets,Qualification Concept,strand* asset*
+Vulnerability,Qualification Concept,vulnerab* OR sensitiv* OR exposur*
+Absorptive Capacity,Resilience Capacity,absorpt* capaci* OR capacity* to* absorb* OR static* econom* resilien*
+Restorative capacity,Resilience Capacity,restorat* capaci* OR capacity* to* restore* OR rapid* recovery*
+Economic resilience,Resilience Dimension,econom* resilien* OR financial* loss* minimi*
+Organizational resilience,Resilience Dimension,organisat* resilien* OR organization* resilien* OR governance* resilien*
+Social resilience,Resilience Dimension,social* resilien* OR communit* level* skill*
+Technical resilience,Resilience Dimension,technic* resilien* OR technolog* resilien* OR TOSE* dimension*
+Critical Infrastructure Protection,Resilience Theme,critic* infra* protect* OR CIP
+Resilient Agrifood Systems,Resilience Theme,resilien* agri* OR climate* smart* agri*
+Resilient Cities & Settlements,Resilience Theme,resilien* cit* OR urban* resilien*
+Resilient Health,Resilience Theme,resilien* health* OR health* regular*
+Resilient Industry & Commerce,Resilience Theme,resilien* industr* OR suppl* chain* resilien*
+Resilient Infrastructure,Resilience Theme,resilien* infra*
+Resilient Natural Systems,Resilience Theme,resilien* natur* OR ecosystem* based* adapt* OR EbA
+Resilient Social Systems,Resilience Theme,resilien* social* OR communit* resilien*
+Resilient Water Systems,Resilience Theme,resilien* water* OR water* secur* OR urban* drainag*
+Decentralized Energy & Microgrids,Resilience Theme (Energy),micro*grid* OR decentrali* energy* OR distribut* energy* OR DER
+Energy Storage & Backup,Resilience Theme (Energy),energy* storag* OR batter* storag* OR backup* generat*
+Grid Resilience,Resilience Theme (Energy),grid* resilien* OR power* grid* moderni*
+Climate-Resilient Transport Systems,Resilience Theme (Transport),climat* resilien* transport*
+Pavement & Tarmac Resilience,Resilience Theme (Transport),pave* resilien* OR heat* resist* tarmac*
+Port & Maritime Resilience,Resilience Theme (Transport),port* resilien* OR coastal* port* OR harbor* protect*
+Rail & Track Resilience,Resilience Theme (Transport),rail* buckl* OR track* buckl* OR rail* thermal*
+Anticipative capacity,System Attribute,anticipat* OR forecast* risk*
+Asset Hardening,System Attribute,asset* harden* OR physical* harden* OR grid* harden*
+Capacity to prepare,System Attribute,capaci* to* prepar* OR prepar* capaci* OR planning* capaci*
+Design principles,System Attribute,design* principle* OR resilien* principle*
+Diversity,System Attribute,divers* OR response* divers* OR equipment* divers* OR software* divers*
+Flexibility / Modularity,System Attribute,flexib* asset* OR modul* design*
+Graceful degradability,System Attribute,gracef* degrad* OR gracef* deteriorat* OR weak* robustness*
+Graceful extensibility,System Attribute,gracef* extens* OR regime* of* performance* OR sustained* adapt*
+Green Infrastructure,System Attribute,green* infra* OR blue* green* infra*
+Hard resilience,System Attribute,hard* resilien* OR structural* quality* OR mechanical* quality*
+Interoperability,System Attribute,interoperab*
+Modularity,System Attribute,modul* OR compartmental* OR localized* capacity*
+Nature-Based Solutions (NbS),System Attribute,nature* based* solution* OR NbS
+Passive Survivability,System Attribute,passiv* surviv*
+Rapidity,System Attribute,rapid* OR recovery* slope*
+Recoverability,System Attribute,recoverab* OR repairab*
+Redundancy,System Attribute,redundanc* OR backup* system*
+Resourcefulness,System Attribute,resourceful* OR inherent* resilien* OR priority* decision*
+Robustness,System Attribute,robust* design* OR structur* robust*
+Situation awareness,System Attribute,situat* awareness* OR situational* awareness* OR recognize* cue*
+Soft resilience,System Attribute,soft* resilien* OR human* need* behavior*
+Transformation ability,System Attribute,transform* OR transformab* OR profound* change*
