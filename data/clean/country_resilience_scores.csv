@@ -1,0 +1,190 @@
+country_iso,country,resilience_score,policy_count
+CHN,China,24,174
+AUS,Australia,22,130
+CAN,Canada,21,150
+IND,India,21,156
+DEU,Germany,19,163
+BRA,Brazil,17,127
+USA,United States of America,17,261
+COL,Colombia,16,66
+IDN,Indonesia,16,135
+TUR,Turkey,16,90
+GBR,United Kingdom,14,145
+PER,Peru,13,39
+FRA,France,12,183
+VNM,Viet Nam,12,58
+ARG,Argentina,11,81
+KEN,Kenya,10,31
+MEX,Mexico,10,85
+NGA,Nigeria,10,36
+PHL,Philippines,10,44
+KOR,Republic of Korea,9,134
+SWE,Sweden,9,63
+UKR,Ukraine,9,39
+CHL,Chile,8,52
+ZAF,South Africa,8,85
+ESP,Spain,8,88
+JPN,Japan,7,164
+NOR,Norway,7,66
+RUS,Russian Federation,7,54
+BTN,Bhutan,6,23
+CRI,Costa Rica,6,38
+POL,Poland,6,21
+ARE,United Arab Emirates,6,29
+MAR,Morocco,5,35
+NLD,Netherlands,5,23
+SAU,Saudi Arabia,5,30
+ETH,Ethiopia,4,24
+SGP,Singapore,4,35
+THA,Thailand,4,39
+FIN,Finland,3,25
+GMB,Gambia,3,11
+GEO,Georgia,3,12
+ITA,Italy,3,83
+MDG,Madagascar,3,6
+NZL,New Zealand,3,31
+PAK,Pakistan,3,18
+CHE,Switzerland,3,40
+TZA,"Tanzania, United Republic of",3,16
+ZMB,Zambia,3,14
+DZA,Algeria,2,15
+BEL,Belgium,2,32
+BGR,Bulgaria,2,22
+IRN,Iran,2,11
+NPL,Nepal,2,21
+SSD,South Sudan,2,2
+LKA,Sri Lanka,2,9
+TGO,Togo,2,9
+TON,Tonga,2,5
+UZB,Uzbekistan,2,18
+VEN,"Venezuela, Bolivarian Republic of",2,8
+ALB,Albania,1,3
+AUT,Austria,1,8
+TCD,Chad,1,2
+COD,"Congo, the Democratic Republic of the",1,6
+CZE,Czechia,1,6
+DJI,Djibouti,1,2
+EGY,Egypt,1,23
+SLV,El Salvador,1,8
+GRD,Grenada,1,5
+GTM,Guatemala,1,8
+GUY,Guyana,1,3
+KAZ,Kazakhstan,1,22
+LVA,Latvia,1,2
+LIE,Liechtenstein,1,7
+LUX,Luxembourg,1,5
+MYS,Malaysia,1,19
+MHL,Marshall Islands,1,4
+MDA,"Moldova, Republic of",1,2
+MNG,Mongolia,1,11
+MOZ,Mozambique,1,13
+NRU,Nauru,1,2
+PAN,Panama,1,4
+RWA,Rwanda,1,7
+SYC,Seychelles,1,3
+SLB,Solomon Islands,1,4
+SUR,Suriname,1,5
+SYR,Syrian Arab Republic,1,5
+TTO,Trinidad and Tobago,1,7
+TUN,Tunisia,1,17
+AFG,Afghanistan,0,1
+AND,Andorra,0,2
+AGO,Angola,0,11
+ATG,Antigua and Barbuda,0,1
+ARM,Armenia,0,3
+AZE,Azerbaijan,0,2
+BHS,Bahamas,0,3
+BHR,Bahrain,0,1
+BGD,Bangladesh,0,8
+BRB,Barbados,0,4
+BLR,Belarus,0,10
+BLZ,Belize,0,3
+BEN,Benin,0,6
+BOL,"Bolivia, Plurinational State of",0,8
+BIH,Bosnia and Herzegovina,0,3
+BWA,Botswana,0,2
+BRN,Brunei Darussalam,0,2
+BFA,Burkina Faso,0,2
+BDI,Burundi,0,4
+KHM,Cambodia,0,4
+CMR,Cameroon,0,6
+CPV,Cape Verde,0,2
+CAF,Central African Republic,0,1
+COM,Comoros,0,2
+HRV,Croatia,0,2
+CUB,Cuba,0,8
+CYP,Cyprus,0,1
+CIV,Côte d&#039;Ivoire,0,2
+PRK,Democratic People&#039;s Republic of Korea,0,2
+DNK,Denmark,0,38
+DMA,Dominica,0,2
+DOM,Dominican Republic,0,8
+ECU,Ecuador,0,10
+GNQ,Equatorial Guinea,0,1
+ERI,Eritrea,0,2
+EST,Estonia,0,2
+SWZ,Eswatini,0,3
+FJI,Fiji,0,3
+GAB,Gabon,0,9
+GHA,Ghana,0,7
+GRC,Greece,0,10
+GIN,Guinea,0,2
+GNB,Guinea-Bissau,0,2
+HTI,Haiti,0,1
+HND,Honduras,0,5
+HUN,Hungary,0,8
+ISL,Iceland,0,6
+IRQ,Iraq,0,4
+IRL,Ireland,0,13
+ISR,Israel,0,17
+JAM,Jamaica,0,6
+JOR,Jordan,0,4
+KIR,Kiribati,0,4
+KWT,Kuwait,0,6
+KGZ,Kyrgyzstan,0,2
+LAO,Lao People&#039;s Democratic Republic,0,3
+LBN,Lebanon,0,2
+LSO,Lesotho,0,2
+LBR,Liberia,0,1
+LTU,Lithuania,0,2
+MKD,"Macedonia, the former Yugoslav Republic of",0,2
+MWI,Malawi,0,3
+MDV,Maldives,0,6
+MLI,Mali,0,2
+MRT,Mauritania,0,1
+MUS,Mauritius,0,3
+FSM,"Micronesia, Federated States of",0,5
+MNE,Montenegro,0,3
+MMR,Myanmar,0,7
+NAM,Namibia,0,4
+NIC,Nicaragua,0,2
+NER,Niger,0,2
+OMN,Oman,0,2
+PLW,Palau,0,2
+PNG,Papua New Guinea,0,3
+PRY,Paraguay,0,5
+PRT,Portugal,0,11
+QAT,Qatar,0,1
+ROU,Romania,0,12
+KNA,Saint Kitts and Nevis,0,1
+LCA,Saint Lucia,0,1
+VCT,Saint Vincent and the Grenadines,0,1
+WSM,Samoa,0,4
+SMR,San Marino,0,2
+STP,Sao Tome and Principe,0,2
+SEN,Senegal,0,12
+SRB,Serbia,0,2
+SLE,Sierra Leone,0,2
+SVK,Slovakia,0,24
+SVN,Slovenia,0,11
+SOM,Somalia,0,2
+SDN,Sudan,0,2
+TJK,Tajikistan,0,13
+TLS,Timor-Leste,0,4
+TKM,Turkmenistan,0,3
+TUV,Tuvalu,0,7
+UGA,Uganda,0,12
+URY,Uruguay,0,33
+VUT,Vanuatu,0,6
+YEM,Yemen,0,5
+ZWE,Zimbabwe,0,10
