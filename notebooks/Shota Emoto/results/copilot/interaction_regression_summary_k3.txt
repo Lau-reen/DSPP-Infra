@@ -1,0 +1,33 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              log_green   R-squared:                       0.398
+Model:                            OLS   Adj. R-squared:                  0.350
+Method:                 Least Squares   F-statistic:                     20.45
+Date:                Mon, 29 Jun 2026   Prob (F-statistic):           5.45e-16
+Time:                        13:35:24   Log-Likelihood:                -189.38
+No. Observations:                  95   AIC:                             394.8
+Df Residuals:                      87   BIC:                             415.2
+Df Model:                           7                                         
+Covariance Type:                  HC3                                         
+======================================================================================================
+                                         coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------------------------
+Intercept                              5.0935      0.552      9.231      0.000       4.012       6.175
+C(cluster)[T.1]                       -1.1743      1.146     -1.025      0.305      -3.420       1.071
+C(cluster)[T.2]                       -0.4694      0.924     -0.508      0.612      -2.281       1.342
+clean_policy_count                     0.0449      0.009      4.764      0.000       0.026       0.063
+C(cluster)[T.1]:clean_policy_count     0.0427      0.019      2.215      0.027       0.005       0.081
+C(cluster)[T.2]:clean_policy_count     0.0694      0.122      0.570      0.568      -0.169       0.308
+avg_gdp_pc                         -1.713e-05      0.000     -0.165      0.869      -0.000       0.000
+avg_rule_law                           0.1662      0.683      0.243      0.808      -1.173       1.505
+==============================================================================
+Omnibus:                       13.612   Durbin-Watson:                   1.857
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               14.677
+Skew:                          -0.911   Prob(JB):                     0.000650
+Kurtosis:                       3.626   Cond. No.                     2.89e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+[2] The condition number is large, 2.89e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.

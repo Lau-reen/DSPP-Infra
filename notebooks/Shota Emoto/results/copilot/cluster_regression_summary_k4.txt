@@ -1,0 +1,79 @@
+=== Cluster analysis for k=4 ===
+N observations: 95
+
+Cluster-level correlation and slope:
+cluster 0: n=36, corr=0.569, slope=0.048
+cluster 1: n=29, corr=0.389, slope=0.116
+cluster 2: n=23, corr=0.649, slope=0.051
+cluster 3: n=7, corr=0.870, slope=0.227
+
+Base regression summary:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              log_green   R-squared:                       0.369
+Model:                            OLS   Adj. R-squared:                  0.326
+Method:                 Least Squares   F-statistic:                     6.463
+Date:                Mon, 29 Jun 2026   Prob (F-statistic):           1.13e-05
+Time:                        13:35:25   Log-Likelihood:                -191.60
+No. Observations:                  95   AIC:                             397.2
+Df Residuals:                      88   BIC:                             415.1
+Df Model:                           6                                         
+Covariance Type:                  HC3                                         
+======================================================================================
+                         coef    std err          z      P>|z|      [0.025      0.975]
+--------------------------------------------------------------------------------------
+Intercept              4.9609      0.510      9.728      0.000       3.961       5.961
+C(cluster)[T.1]        0.2423      0.721      0.336      0.737      -1.171       1.656
+C(cluster)[T.2]        0.6855      0.694      0.988      0.323      -0.675       2.046
+C(cluster)[T.3]       -0.4106      1.307     -0.314      0.753      -2.973       2.152
+clean_policy_count     0.0527      0.012      4.531      0.000       0.030       0.076
+avg_gdp_pc         -6.623e-05   9.98e-05     -0.664      0.507      -0.000       0.000
+avg_rule_law           0.2860      0.762      0.375      0.707      -1.208       1.779
+==============================================================================
+Omnibus:                       15.425   Durbin-Watson:                   2.015
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               17.245
+Skew:                          -0.974   Prob(JB):                     0.000180
+Kurtosis:                       3.749   Cond. No.                     3.72e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+[2] The condition number is large, 3.72e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Interaction regression summary:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              log_green   R-squared:                       0.391
+Model:                            OLS   Adj. R-squared:                  0.327
+Method:                 Least Squares   F-statistic:                     4.201
+Date:                Mon, 29 Jun 2026   Prob (F-statistic):           0.000162
+Time:                        13:35:25   Log-Likelihood:                -189.91
+No. Observations:                  95   AIC:                             399.8
+Df Residuals:                      85   BIC:                             425.4
+Df Model:                           9                                         
+Covariance Type:                  HC3                                         
+======================================================================================================
+                                         coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------------------------
+Intercept                              5.0117      0.577      8.683      0.000       3.881       6.143
+C(cluster)[T.1]                       -0.1556      1.024     -0.152      0.879      -2.162       1.851
+C(cluster)[T.2]                        0.5944      0.808      0.736      0.462      -0.990       2.178
+C(cluster)[T.3]                       -1.1298      1.920     -0.589      0.556      -4.892       2.633
+clean_policy_count                     0.0482      0.016      2.998      0.003       0.017       0.080
+C(cluster)[T.1]:clean_policy_count     0.0651      0.124      0.527      0.598      -0.177       0.307
+C(cluster)[T.2]:clean_policy_count     0.0041      0.029      0.143      0.886      -0.052       0.061
+C(cluster)[T.3]:clean_policy_count     0.1823      1.105      0.165      0.869      -1.984       2.348
+avg_gdp_pc                         -5.856e-05      0.000     -0.505      0.614      -0.000       0.000
+avg_rule_law                           0.2910      0.773      0.376      0.707      -1.224       1.806
+==============================================================================
+Omnibus:                       17.146   Durbin-Watson:                   2.030
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               19.862
+Skew:                          -1.030   Prob(JB):                     4.86e-05
+Kurtosis:                       3.879   Cond. No.                     4.17e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+[2] The condition number is large, 4.17e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.

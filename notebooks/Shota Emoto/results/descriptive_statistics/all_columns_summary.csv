@@ -1,0 +1,46 @@
+﻿,dtype,missing,missing_rate,unique
+Region,str,0,0.0,7
+Country,str,0,0.0,130
+IncomeGroup,str,0,0.0,3
+IDA Status,str,0,0.0,3
+Financial closure year,int64,0,0.0,25
+Financial closure Month,str,0,0.0,12
+Project name,str,0,0.0,7528
+RelatedNames,str,6069,74.36588653351305,1660
+Type of PPI,str,0,0.0,4
+Subtype of PPI,str,0,0.0,14
+Project status,str,0,0.0,4
+Primary sector,str,0,0.0,5
+Subsector,str,0,0.0,18
+Segment,str,441,5.403749540497488,58
+Location,str,236,2.8918024751868643,5211
+ContractPeriod,str,1,0.012253400318588408,57
+GovtGrantingContract,str,0,0.0,5
+DirectGovtSupport,str,0,0.0,6
+DirectGovtSupportValue,str,6973,85.44296042151697,274
+InDirectGovtSupport,str,0,0.0,16
+InDirectGovtSupportValue,str,7272,89.1067271167749,5
+Total Equity,str,5515,67.57750275701507,1313
+InvestmentYear,int64,0,0.0,25
+PercentPrivate,str,0,0.0,163
+FeesToGovernment,str,0,0.0,616
+PhysicalAssets,str,0,0.0,3905
+TotalInvestment,str,0,0.0,4210
+CapacityType,str,0,0.0,11
+Capacity,str,0,0.0,1941
+Technology,str,3995,48.95233427276069,54
+RelatedProjects,str,7863,96.34848670506065,273
+BidCriteria,str,4155,50.91287832373483,10
+AwardMethod,str,0,0.0,6
+NumberOfBids,str,4571,56.01029285626762,44
+Sponsors,str,7,0.08577380223011886,5434
+Sponsors Country,str,7,0.08577380223011886,1076
+Main Revenue Source,str,8,0.09802720254870727,17
+Other Revenue Source,str,7480,91.6554343830413,10
+MultiLateralSupport,str,879,10.770738880039211,972
+BiLateralSupport,str,972,11.910305109667933,439
+TotalDebtFunding,str,5431,66.54821713025365,1585
+DebtEquityGrantRatio,str,5431,66.54821713025365,186
+ProjectBanks,str,5313,65.10231589266022,2347
+UnsolicitedProposal,str,4069,49.85908589633624,2
+PublicDisclosure,str,0,0.0,2

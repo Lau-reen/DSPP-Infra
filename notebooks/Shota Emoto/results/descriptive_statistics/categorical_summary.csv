@@ -1,0 +1,44 @@
+﻿Variable,Count,Missing,MissingRate(%),Unique,Top,TopFreq
+Region,8161,0,0.0,7,East Asia and Pacific,2616
+Country,8161,0,0.0,130,China,1869
+IncomeGroup,8161,0,0.0,3,Upper middle income,5213
+IDA Status,8161,0,0.0,3,Non-IDA,6981
+Financial closure Month,8161,0,0.0,12,December,991
+Project name,8161,0,0.0,7528,Companhia Energetica do Maranhao (CEMAR),16
+RelatedNames,2092,6069,74.36588653351305,1660,..,6069
+Type of PPI,8161,0,0.0,4,Greenfield project,5607
+Subtype of PPI,8161,0,0.0,14,"Build, operate, and transfer",2516
+Project status,8161,0,0.0,4,Active,7937
+Primary sector,8161,0,0.0,5,Energy,4593
+Subsector,8161,0,0.0,18,Electricity,4235
+Segment,7720,441,5.403749540497488,58,Electricity generation,3664
+Location,7925,236,2.8918024751868643,5211,Not Available,236
+ContractPeriod,8160,1,0.012253400318588408,57,Not Available,2604
+GovtGrantingContract,8161,0,0.0,5,National,4387
+DirectGovtSupport,8161,0,0.0,6,Not Available,5392
+DirectGovtSupportValue,1188,6973,85.44296042151697,274,Not Available,6973
+InDirectGovtSupport,8161,0,0.0,16,Not Available,6425
+InDirectGovtSupportValue,889,7272,89.1067271167749,5,Not Available,7272
+Total Equity,2646,5515,67.57750275701507,1313,0,5515
+PercentPrivate,8161,0,0.0,163,100,6537
+FeesToGovernment,8161,0,0.0,616,Not Available,3579
+PhysicalAssets,8161,0,0.0,3905,Not Available,574
+TotalInvestment,8161,0,0.0,4210,Not Available,592
+CapacityType,8161,0,0.0,11,MW,3667
+Capacity,8161,0,0.0,1941,Not Available,1117
+Technology,4166,3995,48.95233427276069,54,"Solar, PV",3995
+RelatedProjects,298,7863,96.34848670506065,273,LDC-SEV,7863
+BidCriteria,4006,4155,50.91287832373483,10,Not Available,4155
+AwardMethod,8161,0,0.0,6,Competitive bidding,3527
+NumberOfBids,3590,4571,56.01029285626762,44,Not Available,4571
+Sponsors,8154,7,0.08577380223011886,5434,China Everbright International (Not Available / 100% ),177
+Sponsors Country,8154,7,0.08577380223011886,1076,China,1097
+Main Revenue Source,8153,8,0.09802720254870727,17,Purchase agreements or transmission fees with public entity(ies),2728
+Other Revenue Source,681,7480,91.6554343830413,10,Sales to wholesale market,7480
+MultiLateralSupport,7282,879,10.770738880039211,972,No,6089
+BiLateralSupport,7189,972,11.910305109667933,439,No,6714
+TotalDebtFunding,2730,5431,66.54821713025365,1585,Not Available,5431
+DebtEquityGrantRatio,2730,5431,66.54821713025365,186,Not Available,5431
+ProjectBanks,2848,5313,65.10231589266022,2347,BNDES (Not Available / Not Available / $Not Available),5313
+UnsolicitedProposal,4092,4069,49.85908589633624,2,No,4069
+PublicDisclosure,8161,0,0.0,2,No,7960
