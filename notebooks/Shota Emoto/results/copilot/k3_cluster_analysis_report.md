@@ -100,13 +100,24 @@ where $\beta_c$ is the slope for cluster $c$.
 A pooled interaction model is also estimated so that the slope can be compared across clusters:
 
 $$
+\begin{aligned}
 \log(1 + \text{green\_investment\_narrow}_i)
-= \beta_0 + \beta_1 \text{clean\_policy\_count}_i
+&= \beta_0
++ \beta_1 \text{clean\_policy\_count}_i \\
+&\quad
 + \beta_2 \text{avg\_gdp\_pc}_i
-+ \beta_3 \text{avg\_rule\_law}_i
-+ \sum_k \delta_k \mathbf{1}[c(i)=k]
-+ \sum_k \theta_k \left( \text{clean\_policy\_count}_i \times \mathbf{1}[c(i)=k] \right)
++ \beta_3 \text{avg\_rule\_law}_i \\
+&\quad
++ \sum_k \delta_k \mathbf{1}[c(i)=k] \\
+&\quad
++ \sum_k \theta_k
+\left(
+\text{clean\_policy\_count}_i
+\times \mathbf{1}[c(i)=k]
+\right) \\
+&\quad
 + \varepsilon_i
+\end{aligned}
 $$
 
 With one cluster used as the reference group, the cluster-specific slopes are:
