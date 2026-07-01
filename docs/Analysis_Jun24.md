@@ -19,7 +19,7 @@ cf Russell's work.
 
 ### Metrics
 We tested two metrics to represent a country's policy landscape:
-* Clean Policy Count : The total count of clean energy policies passed by a country.
+* Green Policy Count : The total count of clean energy policies passed by a country.
 * Green Policy Share: The proportion of clean energy policies out of a country's total national climate policies
 Why this is useful: Count is biased towards larger countries with high bureaucratic resources. Share captures a country's specific policy focus.
 
