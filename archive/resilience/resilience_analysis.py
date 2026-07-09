@@ -1,7 +1,12 @@
-import os
+from pathlib import Path
 import re
 import pandas as pd
 import numpy as np
+
+ROOT_DIR = Path(__file__).resolve().parents[1]
+DATA_DIR = ROOT_DIR / "data"
+RAW_DIR = DATA_DIR / "raw"
+CLEAN_DIR = DATA_DIR / "clean"
 
 def parse_pattern_to_regex(pattern_str):
     # Split by alternative OR
@@ -25,7 +30,7 @@ def parse_pattern_to_regex(pattern_str):
 
 def main():
     print("Step 1: Loading and parsing taxonomy...")
-    taxonomy_path = "c:/Users/laure/Documents/DSPP_local/mentges_ci_enhanced_climate_resilience_taxonomy.csv"
+    taxonomy_path = CLEAN_DIR / "mentges_ci_enhanced_climate_resilience_taxonomy.csv"
     taxonomy = pd.read_csv(taxonomy_path)
     
     # Prune taxonomy to focus strictly on infrastructure resilience
@@ -57,7 +62,7 @@ def main():
         print(f"  Regex:   {example_row['Compiled_Regex'].values[0]}")
 
     print("\nStep 2: Loading CPDB dataset...")
-    cpdb_path = "c:/Users/laure/Documents/DSPP_local/cpdb_country_all.csv"
+    cpdb_path = RAW_DIR / "cpdb_country_all.csv"
     cpdb = pd.read_csv(cpdb_path)
     print(f"Loaded CPDB dataset with {len(cpdb)} rows.")
     
@@ -147,7 +152,7 @@ def main():
     print(f"Deduplicated to {len(df_unique_policies)} unique policies.")
     
     # Save cpdb_resilience_annotated.csv
-    df_unique_policies.to_csv("c:/Users/laure/Documents/DSPP_local/cpdb_resilience_annotated.csv", index=False)
+    df_unique_policies.to_csv(CLEAN_DIR / "cpdb_resilience_annotated.csv", index=False)
     print("Exported cpdb_resilience_annotated.csv.")
     
     # Generate country_resilience_scores.csv
@@ -168,7 +173,7 @@ def main():
     df_summary = pd.DataFrame(summary_rows)
     # Sort by resilience_score descending, then country name
     df_summary = df_summary.sort_values(by=['resilience_score', 'country'], ascending=[False, True])
-    df_summary.to_csv("c:/Users/laure/Documents/DSPP_local/country_resilience_scores.csv", index=False)
+    df_summary.to_csv(CLEAN_DIR / "country_resilience_scores.csv", index=False)
     print("Exported country_resilience_scores.csv.")
     
     print("\nQuality Checks:")

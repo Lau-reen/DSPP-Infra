@@ -1,7 +1,17 @@
+from pathlib import Path
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+
+ROOT_DIR = Path(__file__).resolve().parents[1]
+DATA_DIR = ROOT_DIR / "data"
+RAW_DIR = DATA_DIR / "raw"
+CLEAN_DIR = DATA_DIR / "clean"
+TEMP_DIR = DATA_DIR / "temp"
+REPORTS_DIR = ROOT_DIR / "reports"
+REPORTS_DIR.mkdir(exist_ok=True)
 
 def classify_technology(tech):
     # Standard classification based on ppi_green_share_methodology.md
@@ -29,7 +39,7 @@ def classify_technology(tech):
 
 def main():
     print("Step 1: Processing CPDB Policy Data...")
-    cpdb = pd.read_csv("C:/Users/laure/Documents/DSPP/DSPP_local/cpdb_country_all.csv")
+    cpdb = pd.read_csv(RAW_DIR / "cpdb_country_all.csv")
     
     # Filter jurisdiction to National or Country
     if 'National' in cpdb['jurisdiction'].unique():
@@ -58,7 +68,7 @@ def main():
     ).astype(int)
     
     # Save the annotated clean energy policies
-    df_policies_filtered.to_csv("C:/Users/laure/Documents/DSPP/DSPP_local/cpdb_green_annotated.csv", index=False)
+    df_policies_filtered.to_csv(CLEAN_DIR / "cpdb_green_annotated.csv", index=False)
     print("Saved annotated clean energy policies to cpdb_green_annotated.csv")
     
     # Group policies by country and count total vs clean energy
@@ -79,13 +89,13 @@ def main():
     
     # Save country-level green scores file
     df_green_scores = df_policy_scores.sort_values(by=['clean_policy_count', 'country'], ascending=[False, True])
-    df_green_scores.to_csv("C:/Users/laure/Documents/DSPP/DSPP_local/country_green_scores.csv", index=False)
+    df_green_scores.to_csv(CLEAN_DIR / "country_green_scores.csv", index=False)
     print("Saved country-level green scores to country_green_scores.csv")
     
     print(f"Processed policy scores for {len(df_policy_scores)} countries.")
 
     print("\nStep 2: Processing PPI Investment Data...")
-    ppi = pd.read_csv("C:/Users/laure/Documents/DSPP/DSPP_local/archive/ppi_energy.csv")
+    ppi = pd.read_csv(TEMP_DIR / "ppi_energy.csv")
     
     # Apply technology classification
     classifications = ppi['technology'].apply(classify_technology)
@@ -131,7 +141,7 @@ def main():
     print(f"Merged dataset contains {len(merged)} countries.")
     
     # Save merged dataset for transparency
-    merged.to_csv("C:/Users/laure/Documents/DSPP/DSPP_local/merged_policy_investment_scores.csv", index=False)
+    merged.to_csv(CLEAN_DIR / "merged_policy_investment_scores.csv", index=False)
     print("Saved merged dataset to merged_policy_investment_scores.csv")
 
     print("\nStep 4: Generating Replicated Figures...")
@@ -178,7 +188,7 @@ def main():
                     row['country_iso'], fontsize=9, alpha=0.8, weight='semibold')
 
     plt.tight_layout()
-    plot_path = "C:/Users/laure/Documents/DSPP/DSPP_local/clean_energy_replication_plots.png"
+    plot_path = REPORTS_DIR / "clean_energy_replication_plots.png"
     plt.savefig(plot_path, dpi=300)
     print(f"Figures saved successfully to {plot_path}")
     
